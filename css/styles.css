@@ -341,7 +341,8 @@ body {
 .modal-field {
 	display: flex;
 	flex-direction: column;
-	margin: 10px 40px 10px 40px;
+	/* margin: 10px 40px 10px 40px; */
+	margin: 10px 40px;
 }
 
 .modal-field input {
