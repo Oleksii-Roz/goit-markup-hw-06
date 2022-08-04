@@ -761,7 +761,7 @@ input[placeholder="E-mail"].subscribe-input {
 
 	display: flex;
 	letter-spacing: 0.03em;
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--my-white);
 }
 
 button[type="submit"].hero-btn {
