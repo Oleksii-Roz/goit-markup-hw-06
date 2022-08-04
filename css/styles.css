@@ -331,6 +331,15 @@ body {
 }
 
 /* ++++++++++++++++++++Модальное окно. Форма++++++++++++++++ */
+.modal-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--first-text-color);
+	/* margin-bottom: 2px; */
+}
 
 /* ==========Наши основные особенности index.html========== */
 .main-basic-first {
