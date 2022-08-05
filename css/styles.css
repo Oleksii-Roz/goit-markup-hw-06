@@ -7,6 +7,7 @@
 	--main-bg: #f5f4fa;
 	--logo-second-part: #000000;
 	--social-logo: #afb1b8;
+	--transition-value: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Убираем внешние и внутренние отступы*/
@@ -180,7 +181,7 @@ body {
 	padding-top: 32px;
 	padding-bottom: 32px;
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value);
 }
 
 .header-nav-link:hover,
@@ -206,7 +207,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value);
 }
 
 .header-link:hover,
@@ -270,7 +271,7 @@ body {
 	padding: 10px 32px;
 	align-items: center;
 
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color var(--transition-value);
 }
 
 .hero-btn:hover,
@@ -287,7 +288,7 @@ body {
 	height: 100vh;
 	background: rgba(0, 0, 0, 0.2);
 
-	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: opacity var(--transition-value), visibility var(--transition-value);
 	z-index: 100;
 }
 
@@ -323,7 +324,7 @@ body {
 	border-radius: 50%;
 	background: var(--my-white);
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border-color var(--transition-value);
 }
 
 .hero-modal-btn:hover .modal-close-btn-icon,
@@ -371,7 +372,7 @@ body {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	padding-left: 42px;
-	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border-color var(--transition-value);
 }
 
 .modal-form-input:focus {
@@ -388,7 +389,7 @@ body {
 	width: 18px;
 	height: 18px;
 	fill: var(--first-text-color);
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill var(--transition-value);
 }
 
 .modal-form-input:focus + .modal-form-input-icon {
@@ -402,7 +403,7 @@ body {
 	resize: none;
 	border-radius: 4px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
-	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border-color var(--transition-value);
 }
 
 .modal-form-message::placeholder {
@@ -468,7 +469,7 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	padding: 10px 52px;
 	align-items: center;
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color var(--transition-value);
 }
 
 .modal-btn:hover,
@@ -612,7 +613,7 @@ body {
 	align-items: center;
 	color: var(--social-logo);
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value), border var(--transition-value);
 }
 
 .clients:hover,
@@ -660,7 +661,7 @@ body {
 	line-height: 1.71;
 	color: var(--my-white);
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value);
 
 	display: block;
 	width: 231px;
@@ -670,7 +671,7 @@ body {
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value);
 }
 
 .a-footer-link-address:hover,
@@ -711,7 +712,7 @@ body {
 	background: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--transition-value), background-color var(--transition-value);
 }
 
 .social-item:hover,
@@ -789,8 +790,8 @@ button[type="submit"].hero-btn {
 	background: var(--main-bg);
 	padding: 6px 22px;
 
-	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow var(--transition-value), color var(--transition-value),
+		background-color var(--transition-value);
 }
 
 .main-filters-btn:hover,
@@ -835,7 +836,7 @@ button[type="submit"].hero-btn {
 .main-item-all-services-link {
 	display: block;
 
-	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow var(--transition-value);
 }
 
 .main-item-all-services-link:hover,
@@ -872,5 +873,5 @@ button[type="submit"].hero-btn {
 	margin: 0;
 
 	transform: translatey(101%);
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: transform var(--transition-value);
 }
