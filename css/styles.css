@@ -352,6 +352,10 @@ body {
 	margin-bottom: 10px;
 }
 
+.modal-form-field-message {
+	margin-bottom: 0px;
+}
+
 .modal-form-input-desc {
 	display: block;
 	font-size: 12px;
@@ -430,7 +434,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--second-text-color);
 	margin-bottom: 30px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .modal-form-check-desc::before {
