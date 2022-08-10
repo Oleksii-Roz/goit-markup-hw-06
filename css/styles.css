@@ -444,6 +444,8 @@ body {
 	display: block;
 	width: 16px;
 	height: 15px;
+	/* width: 18px;
+	height: 18px; */
 	border: 1px solid var(--first-text-color);
 	content: "";
 	cursor: pointer;
@@ -459,10 +461,7 @@ body {
 .modal-form-check:checked + .modal-form-check-desc::before {
 	background-color: var(--accent-color);
 	background-image: url(../images/checkbox/icon-checkbox-on.svg);
-}
-
-.modal-form-check:focus + .modal-form-check-desc::before {
-	background-image: url(../images/checkbox/icon-checkbox-on.svg);
+	border: 0;
 }
 
 .modal-btn {
