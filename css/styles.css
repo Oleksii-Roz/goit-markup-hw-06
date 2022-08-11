@@ -619,7 +619,8 @@ body {
 	align-items: center;
 	color: var(--social-logo);
 
-	transition: color var(--transition-value), border var(--transition-value);
+	transition: color var(--transition-value), border var(--transition-value), border var(--transition-value),
+		border var(--transition-value);
 }
 
 .clients:hover,
